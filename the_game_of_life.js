@@ -1,3 +1,8 @@
+//delete the following variables
+let hello = 0;
+let make_hi = 1000;
+//delete abover variables
+
 function make2DArray(cols, rows) {
   let arr = new Array(cols);
   for (let i = 0; i < arr.length; i++) {
@@ -9,10 +14,10 @@ function make2DArray(cols, rows) {
 let grid;
 let cols;
 let rows;
-let resolution = 10;
+let resolution = 450; //change this to 10
 
 function setup() {
-  createCanvas(1000, 650);
+  createCanvas(40, 40); //change this to (1000, 650)
   cols = width / resolution;
   rows = height / resolution;
 

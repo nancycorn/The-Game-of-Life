@@ -1,8 +1,3 @@
-//delete the following variables
-let hello = 0;
-let make_hi = 1000;
-//delete abover variables
-
 function make2DArray(cols, rows) {
   let arr = new Array(cols);
   for (let i = 0; i < arr.length; i++) {
